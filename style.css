@@ -238,8 +238,8 @@ form {
   width: 10%;
 }
 
-form input,
-textarea{
+form input
+{
   display: block;
   width: 600%;
   padding: 20px 15px;
@@ -248,10 +248,10 @@ textarea{
   background-color: white;
 }
 
-form button {
+form button{
   background-color: white;
   border: none;
-  padding: 13px 60px;
+  padding: 16px 80px;
   margin-left: 285px;
   font-size: 20px;
   border-radius: 10px 20px; 
@@ -267,12 +267,12 @@ form button {
 }
 
 .foter .text-container p{
-  margin-top: -170px;
-  font-size: 15px;
+  margin-top: -330px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  line-height: 30px;
-  margin-left: 350px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-left: 330px;
 }
 
 .foter .logo-contend {
@@ -313,10 +313,32 @@ form button {
   margin-left: -60px;
 }
 
-.foter .li-two :hover {
-  border-bottom: 1px solid white;
-}
+
 
 .foter .hr {
   margin-top: -180px;
+}
+
+.bancaire {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bancaire li {
+  display: flex;
+  justify-self: center;
+  margin-top: -470px;
+}
+
+.bancaire li .suite p{
+  padding-left: 240px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.bancaire li img {
+  padding-left: 320px;
 }
