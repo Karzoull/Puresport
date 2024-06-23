@@ -263,16 +263,20 @@ form button {
   color: white;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 60vh;
 }
 
 .foter .text-container p{
   margin-top: -170px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
-  margin-left: 500px;
+  margin-left: 350px;
+}
+
+.foter .logo-contend {
+  margin-top: -130px;
 }
 
 .foter .logo-contend li{
@@ -282,7 +286,7 @@ form button {
 }
 
 .foter .logo-contend img {
-  margin-left: -10px;
+  padding: -50px;
 }
 
 .foter .logo-contend .icons-app {
@@ -292,12 +296,27 @@ form button {
 .foter .logo-contend .icons-app a {
   color: white;
   padding-left: 70px;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500
 }
 
 .foter .li-two a{
   color: white;
   font-family: 'Poppins', sans-serif;
-  margin-top: -390px;
+  margin-top: -480px;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+.foter .li-two {
+  margin-left: -60px;
+}
+
+.foter .li-two :hover {
+  border-bottom: 1px solid white;
+}
+
+.foter .hr {
+  margin-top: -180px;
 }
