@@ -15,9 +15,17 @@ body {
 
 header .fond img {
   width: 100%;
-  height: 680px;
+  height: 780px;
   object-fit: cover; 
-  margin-top: 85px;
+  margin-top: 90px;
+}
+
+header .fond h1 {
+  margin-top: -133px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-left: 65px;
 }
 
 header .navlist {
@@ -28,7 +36,7 @@ header .navlist {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin-left: -200px;
+  margin-left: -250px;
 }
 
 header .navlist ul {
@@ -83,5 +91,15 @@ header .navlist .icon a:hover {
 header .navlist .icon a {
  padding-left:40px;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.container .contend {
+  margin-top: 118px;
+  margin-left: 65px;
+}
+
+.container .contend p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
 }
