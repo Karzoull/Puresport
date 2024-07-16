@@ -151,6 +151,16 @@ header .navlist .icon a {
   margin-top: 40px;
 }
 
+.produits .container .btn-container a{
+  transition: color 0.8s ease; 
+}
+
+.produits .container .btn-container a:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
 .produits .container a {
   font-size: 17px;
   background-color: transparent;
