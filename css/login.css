@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  top: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+header .navlist {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: -270px;
+}
+
+header .navlist ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navlist .logo {
+  flex-grow: 1;
+}
+
+header .navlist .logo h1 {
+  font-size: 44px;
+  color: black;
+  margin-left: 500px;
+  font-weight: 600;
+}
+
+header .navlist .logo h1 span {
+  font-size: 15px;
+}
+
+header .navlist li {
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navlist li a {
+  font-size: 16px;
+  color: black;
+  transition: color 0.5s ease;
+  font-weight: 500;
+}
+
+header .navlist li a:hover {
+  border-bottom: 2px solid black;
+  height: 100px;
+}
+
+header .navlist .icon {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .navlist .icon a:hover {
+  transform: scale(1.2);
+}
+
+header .navlist .icon a {
+  padding-left: 40px;
+  color: black;
+  font-size: 20px;
+}
+
+.login {
+  margin-left: -50px;
+}
+
+.login .login-contend {
+  text-align: center;
+  margin-top: 160px;
+  font-size: 40px;
+
+}
+
+.login .login-contend h1 {
+  font-weight: 500;
+}
+
+.login .login-form form{
+  display: flex;
+  flex-direction: column;
+  width: 450px; 
+  margin-left: 753px;
+  margin-top: 40px;
+}
+
+.login .login-form form input{
+  margin-bottom: 20px;
+  height: 47px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.login .password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -270px;
+  font-family: 'Poppins';
+  transition: color 0.3 ease;
+  font-size: 13px
+}
+
+
+.login .password:hover {
+  font-weight: 500;
+}
+
+.login .password a {
+  color: black;
+}
+
+.login .pass-btn {
+ text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login .pass-btn button {
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding:15px 40px; /* Ajuster les valeurs de padding pour une correspondance précise */
+    border-radius: 12px 0 12px 12px;
+    color: white;
+    cursor: pointer;
+    background-color: black ;
+    font-size: 16px;
+}
+
+.login .account {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .account a {
+   color: black;
+   transition: color 0.3 ease;
+   font-family: 'Poppins';
+   font-size: 13px;
+}
+
+.login .account a:hover  {
+  font-weight: 500;
+}
