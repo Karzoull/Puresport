@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  top: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+header .navlist {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: -270px;
+}
+
+header .navlist ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navlist .logo {
+  flex-grow: 1;
+}
+
+header .navlist .logo h1 {
+  font-size: 44px;
+  color: black;
+  margin-left: 500px;
+  font-weight: 400;
+}
+
+header .navlist .logo h1 span {
+  font-size: 15px;
+}
+
+header .navlist li {
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navlist li a {
+  font-size: 16px;
+  color: black;
+  transition: color 0.5s ease;
+  font-weight: 500;
+}
+
+header .navlist li a:hover {
+  border-bottom: 2px solid black;
+  height: 100px;
+}
+
+header .navlist .icon {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .navlist .icon a:hover {
+  transform: scale(1.2);
+}
+
+header .navlist .icon a {
+  padding-left: 40px;
+  color: black;
+  font-size: 20px;
+}
+
+.login {
+  margin-left: -50px;
+}
+
+.login .login-contend {
+  text-align: center;
+  margin-top: 160px;
+  font-size: 40px;
+
+}
+
+.login .login-contend p {
+  font-weight: 500;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.login .login-form form{
+  display: flex;
+  flex-direction: column;
+  width: 450px; 
+  margin-left: 753px;
+  margin-top: 40px;
+}
+
+.login .login-form form input{
+  margin-bottom: 20px;
+  height: 47px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: color 0.5 ease;
+}
+
+.login .login-form form input:hover {
+    border-color: black;
+}
+
+
+.login .pass-btn {
+ text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login .pass-btn button {
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding:15px 40px; /* Ajuster les valeurs de padding pour une correspondance précise */
+    border-radius: 12px 0 12px 12px;
+    color: white;
+    cursor: pointer;
+    background-color: black ;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.login .pass-btn button:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    display: flex;
+    height: 44vh;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer .footer-img li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .icons-app {
+   margin-left: 500px;
+   margin-top: 40px;
+}
+
+.footer .icons-app a {
+    padding-left: 50px;
+    color: white;
+    font-size: 34px;
+}
+
+.footer img {
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.footer .li-twoo li{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.footer .li-twoo a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 65px;
+}
+
+.footer .footer-suite {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.footer .footer-suite p  {
+    color: white;
+    font-family: 'Poppins';
+}
+
+.footer .footer-suite img {
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 55px;
+}
+
+.footer .pays {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height:38px ;
+    margin-left: 130px;
+}
+
+.footer .pays select {
+    width: 450px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+   outline: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#333" d="M2 0L0 2h4z"/></svg>'); /* Icône de la flèche */
+  
+    
+}
