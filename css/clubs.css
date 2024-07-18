@@ -96,21 +96,65 @@ header .navlist .icon a {
 }
 
 header .contend {
-    margin-top: 130px;
+    margin-top: 150px;
     font-family: 'Poppins';
-    font-size: 14px;
-    margin-left: 100px;
+    font-size: 13px;
+    margin-left: 65px;
+}
+
+header .contend h1 {
+  font-weight: 600;
 }
 
 header .contend p {
-    font-weight: 600;
+    font-weight: 500;
     line-height: 30px;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 header .contend .second {
     line-height: 50px;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
+.running .strava {
+  width: 100%; /* Remplacez par la largeur finale souhaitée */
+  height: 580px; /* Remplacez par la hauteur finale souhaitée */
+  overflow: hidden; /* Assurez-vous que rien ne déborde */
+  position: relative;
+  margin-top: 35px;
+}
+
+.running .strava img {
+  width: 100%; /* La largeur de l'image remplira le conteneur */
+  height: auto; /* Laisser la hauteur s'ajuster automatiquement */
+  position: absolute;
+  top: -220px; /* Ajustez cette valeur pour couper la partie supérieure */
+}
+
+.running .strava-contend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Pour s'assurer que le texte est visible */
+  margin-top: 1200px;
+}
+
+.running .strava-contend h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  margin-top: -115px;
+}
+
+.running .strava-contend a {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Poppins';
+}

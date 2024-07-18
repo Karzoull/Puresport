@@ -65,8 +65,7 @@ header .navlist li a {
 
 header .navlist li a:hover {
   border-bottom: 2px solid white;
-  height: 100px; /* Définissez la hauteur souhaitée */
-  margin: 0 20px; /* Optionnel : espace autour du trait */
+  height: 100px;
 }
 
 header .navlist .icon {
@@ -76,13 +75,14 @@ header .navlist .icon {
 }
 
 header .navlist .icon a:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 header .navlist .icon a {
  padding-left:40px;
   color: white;
   font-size: 18px;
+  transition: transform 0.5s ease;
 }
 
 .produits {
@@ -323,6 +323,10 @@ form button{
   margin-left: -60px;
 }
 
+.foter .li-two li{
+    transition: color 0.3s ease;
+}
+
 .foter .hr {
   margin-top: -180px;
 }
@@ -349,4 +353,3 @@ form button{
 .bancaire li img {
   padding-left: 320px;
 }
-
