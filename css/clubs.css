@@ -140,21 +140,96 @@ header .contend .second {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white; /* Pour s'assurer que le texte est visible */
-  margin-top: 1200px;
+  margin-top: 1235px;
+  
 }
 
 .running .strava-contend h1 {
   font-size: 36px;
   margin-bottom: 20px;
   font-family: 'Poppins';
-  margin-top: -115px;
+  margin-top: -75px;
 }
 
 .running .strava-contend a {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   background-color: white;
   padding: 10px 20px;
   text-decoration: none;
   font-family: 'Poppins';
+  font-weight: 600;
+  padding: 12px 25px ;
+  border-radius: 2px 13px 13px;
+ 
+}
+
+.running .strava-contend .link:hover{
+   transform: scale(1.1);
+}
+
+.running .strava-contend .link {
+  margin-top: 60px;
+  transition: transform 0.4s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.footer .contact {
+  margin-top: 100px;
+}
+
+.footer .contact h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.footer .contact h3 {
+  font-weight: 300;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.footer .contact p {
+  margin-top: 15px;
+  color: rgb(170, 169, 169);
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+.footer .contact .second {
+  color: white;
+}
+form {
+  width: 15%;
+  margin-left: 35px;
+  margin-top: -35px;
+}
+
+form input
+{
+  display: block;
+  width: 600%;
+  padding: 15px 10px;
+  margin: 50px 0;
+  border: none;
+  background-color: white;
+}
+
+form button{
+  background-color: white;
+  border: none;
+  padding: 13px 70px;
+  font-size: 20px;
+  border-radius: 10px 20px; 
+  cursor: pointer;
+  margin-left: 200px;
+  
 }
