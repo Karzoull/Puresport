@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>login</title>
+    <title>clubs</title>
 </head>
 <body>
     <header>
+        <div class="fond">
+            <h1>Puresport Clubs</h1>
+        </div>
         <div class="navlist">
             <ul>
                 <div class="logo">
@@ -18,35 +21,60 @@
                 <li><a href="#">APPAEL</a></li>
                 <li><a href="our story.html">OUR STORY</a></li>
                 <li><a href="#">CLUBS</a></li>
-                <li><a href="event.html">EVENTS</a></li>
+                <li><a href="#">EVENTS</a></li>
                 <div class="icon">
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="login.html"><i class="fa-regular fa-user"></i></a>
                     <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
                 </div>
             </ul>
         </div>
     </header>
-    <section class="login">
-        <div class="login-contend">
-            <h1>Login</h1>
-        </div>
-        <div class="login-form">
-            <form action="#" method="post">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input type="password" name="password" id="password" placeholder="Password" required>
-                    <div class="password">
-                        <a href="#">Forgot your password?<hr></a>
-                    </div>
-                    <div class="pass-btn">
-                        <button type="submit">Sign In</button>
-                        <DIV class="account">
-                            <a href="creat account.html">Create account<hr></a>
-                        </DIV>
-                    </div>
-            </form>
-        </div>
-    </section>
+    <section class="calendrier">
+        <div id="container">
+            <div id="header">
+              <div id="monthDisplay"></div>
+              <div>
+                <button id="backButton">Back</button>
+                <button id="nextButton">Next</button>
+              </div>
+            </div>
+      
+            <div id="weekdays">
+              <div>Sunday</div>
+              <div>Monday</div>
+              <div>Tuesday</div>
+              <div>Wednesday</div>
+              <div>Thursday</div>
+              <div>Friday</div>
+              <div>Saturday</div>
+            </div>
+      
+            <div id="calendar"></div>
+          </div>
+      
+          <div id="newEventModal">
+            <h2>New Event</h2>
+      
+            <input id="eventTitleInput" placeholder="Event Title" />
+      
+            <button id="saveButton">Save</button>
+            <button id="cancelButton">Cancel</button>
+          </div>
+      
+          <div id="deleteEventModal">
+            <h2>Event</h2>
+      
+            <p id="eventText"></p>
+      
+            <button id="deleteButton">Delete</button>
+            <button id="closeButton">Close</button>
+          </div>
+      
+          <div id="modalBackDrop"></div>
+      
+          <script src="script.js"></script>
+    </section>    
     <section class="footer">
         <div class="footer-img">
                 <li>
@@ -95,5 +123,5 @@
                   </div>
         </div>          
     </section>
-        
- </body>
+</body>
+</html>

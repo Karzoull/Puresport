@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  padding: 0;
+  top: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;  }
+
+body {
+  background-repeat: no-repeat;
+}
+
+
+header .fond h1 {
+    color: white;
+    margin-top: -140px;
+    font-family: 'Poppins';
+    margin-left: 300px;
+    filter: brightness(100%);
+}
+
+header .navlist {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: -170px;
+  margin-top: 10px;
+}
+
+header .navlist ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navlist .logo {
+  flex-grow: 1;
+  margin-left: 380px;
+}
+
+header .navlist .logo h1 {
+  font-size: 44px;
+  color: black;
+  font-weight: 400;
+}
+
+header .navlist .logo h1 span {
+  font-size: 15px;
+}
+
+header .navlist li {
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navlist li a {
+  font-size: 16px;
+  color: black;
+  transition: color 0.5s ease;
+}
+
+header .navlist li a:hover {
+  border-bottom: 2px solid black;
+  height: 100px; /* Définissez la hauteur souhaitée */
+  
+}
+
+header .navlist .icon {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .navlist .icon a:hover {
+  transform: scale(1.2);
+}
+
+header .navlist .icon a {
+ padding-left:40px;
+  color: black;
+  font-size: 18px;
+}
+
+#header {
+    padding: 10px;
+    color: black;
+    font-size: 26px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  #header button {
+    background-color:black;
+  }
+button {
+    width: 75px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px gray;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+  }
+  
+  
+.calendrier {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+    font-family: 'Poppins';
+}
+  #container {
+    width: 770px;
+  }
+  #weekdays {
+    width: 100%;
+    display: flex;
+    color: black;
+  }
+  #weekdays div {
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  #calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .day {
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0px 0px 3px #CBD4C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .day:hover {
+    background-color: #e8faed;
+  }
+  
+  .day + #currentDay {
+    background-color:#e8f4fa;
+  }
+  .event {
+    font-size: 13px;
+    padding: 2px 5px;
+    background-color: #58bae4;
+    color: white;
+    border-radius: 5px;
+    max-height: 55px;
+    overflow: hidden;
+  }
+  .padding {
+    cursor: default !important;
+    background-color: #FFFCFF !important;
+    box-shadow: none !important;
+  }
+  #newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: #e8f4fa;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;
+  }
+  #eventTitleInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventTitleInput.error {
+    border: 2px solid red;
+  }
+  #cancelButton, #deleteButton {
+    background-color: rgb(247, 111, 111);
+  }
+  #saveButton, #closeButton {
+    background-color: #92a1d1;
+  }
+  #eventText {
+    font-size: 14px;
+  }
+  #modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .footer {
+    display: flex;
+    height: 44vh;
+    background-color: black;
+    margin-top: 40px;
+  }
+  
+  .footer .footer-img li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer .icons-app {
+   margin-left: 500px;
+   margin-top: 40px;
+  }
+  
+  .footer .icons-app a {
+    padding-left: 50px;
+    color: white;
+    font-size: 34px;
+  }
+  
+  .footer img {
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  .footer hr {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  .footer .li-twoo li{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 120px;
+  }
+  
+  .footer .li-twoo a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 65px;
+  }
+  
+  .footer .footer-suite {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  .footer .footer-suite p  {
+    color: white;
+    font-family: 'Poppins';
+  }
+  
+  .footer .footer-suite img {
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 55px;
+  }
+  
+  .footer .pays {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height:38px ;
+    margin-left: 130px;
+  }
+  
+  .footer .pays select {
+    width: 450px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+   outline: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#333" d="M2 0L0 2h4z"/></svg>'); /* Icône de la flèche */
+  
+    
+  }
