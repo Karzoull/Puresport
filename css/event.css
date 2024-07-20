@@ -98,6 +98,7 @@ header .navlist .icon a {
   }
   #header button {
     background-color:black;
+    border: none;
   }
 button {
     width: 75px;
@@ -116,7 +117,7 @@ button {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 220px;
     font-family: 'Poppins';
 }
   #container {
