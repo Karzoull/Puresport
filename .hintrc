@@ -3,17 +3,10 @@
     "development"
   ],
   "hints": {
-    "button-type": "off",
     "axe/forms": [
       "default",
       {
         "select-name": "off"
-      }
-    ],
-    "axe/name-role-value": [
-      "default",
-      {
-        "link-name": "off"
       }
     ],
     "axe/structure": [
@@ -21,6 +14,12 @@
       {
         "listitem": "off",
         "list": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
       }
     ]
   }
