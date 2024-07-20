@@ -28,7 +28,7 @@ header .navlist {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin-left: -50px;
+  margin-left: -120px;
 }
 
 header .navlist ul {
@@ -43,9 +43,10 @@ header .navlist .logo {
 }
 
 header .navlist .logo h1 {
-  font-size: 44px;
+  font-size: 45px;
   color: white;
-  margin-left: 150px;
+  margin-left: 280px;
+  font-weight: 500;
 }
 
 header .navlist .logo h1 span {
