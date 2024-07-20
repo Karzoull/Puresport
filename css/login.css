@@ -128,6 +128,7 @@ header .navlist .icon a {
 
 .login .password a {
   color: black;
+  margin-left: -23px;
 }
 
 .login .pass-btn {
