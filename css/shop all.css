@@ -12,6 +12,7 @@
 
 body {
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 header .fond img {
@@ -110,40 +111,39 @@ header .navlist .icon a {
   display: none;
 }
 
-.card {
-  margin-right: 130px;  
-}
-
 .container_card {
   font-family: 'Poppins';
-  margin-left: 120px;
+  margin-left: 110px;
   margin-top: 50px;
+  height: 100vh;
 }
 
 .container_card li {
   display: flex;
+  flex-wrap: wrap; /* Permettre le retour à la ligne */
 }
 
 .container {
   display: flex;
   align-items: center;
   font-family: 'Poppins';
+  gap: 130px;
 }
 
-.card .img-container {
+.img-container {
   position: relative;
   overflow: hidden;
   height: 390px;
   width: 320px;
 }
 
-.card img {
+.container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.card .img-container::before {
+.container .img-container::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -155,7 +155,7 @@ header .navlist .icon a {
   transition: all 0.7s ease-out;
 }
 
-.card:hover .img-container::before {
+.container:hover .img-container::before {
   opacity: 1;
   scale: 1.1;
 }
@@ -179,15 +179,15 @@ header .navlist .icon a {
   background-color: #9a50ccb4;
 }
 
-.card:hover .actions .favorite {
+.container:hover .actions .favorite {
   right: 10px;
 }
 
-.card > * {
+.container > * {
   margin: 10px 0 10px;
 }
 
-.card p {
+.container p {
   font-size: 12px;
   font-weight: 500;
   margin-left: -20px;
@@ -231,6 +231,7 @@ header .navlist .icon a {
   color: #000;
 }
 
+
 .flip-box-front {
   transform: rotateX(0deg);
 }
@@ -267,7 +268,7 @@ header .navlist .icon a {
   width: 100%;
 }
 
-.card:hover .flip-box {
+.container:hover .flip-box {
   transform: rotateX(180deg);
 }
 
