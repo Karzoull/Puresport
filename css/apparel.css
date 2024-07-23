@@ -10,6 +10,7 @@
 
 body {
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 
@@ -129,4 +130,589 @@ header .contend .second {
 .produits .text p {
     font-family: 'Poppins';
     font-size: 13px;
+}
+
+.contend {
+  margin-top: 118px;
+  margin-left: 65px;
+}
+
+ .contend p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.contend p::before{
+  content: "";
+  display: none;
+}
+
+.container_card {
+  font-family: 'Poppins';
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.container_card li {
+  display: flex;
+  flex-wrap: wrap; /* Permettre le retour à la ligne */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  gap: 130px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.actions .favorite {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #9a50cc4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.actions .favorite:hover {
+  background-color: #9a50ccb4;
+}
+
+.container:hover .actions .favorite {
+  right: 10px;
+}
+
+.container > * {
+  margin: 10px 0 10px;
+}
+
+.container p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.flip-box-front ins p {
+  font-size: 15px;
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.flip-box-back {
+  transform: rotateX(-180deg);
+}
+
+
+.card:hover .flip-box {
+  transform: rotateX(180deg);
+}
+.card2:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+
+.flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.flip-box-back .prix p {
+  padding: 20px;
+}
+
+.flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+.card2 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card2 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card3:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card3 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card3 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card3:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card4 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card4 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card4:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend2 {
+  margin-top: 50px;
+  display: flex;
+  gap: 130px;
+}
+
+.contend2 .img-container2 {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.contend2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card5 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card5 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card6 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card6 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card6:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card7 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card7 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card7:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card8 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card8 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card8:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card9 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card9 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card9:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+
+.card10 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card10 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card10:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card11 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card11 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card11:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend2 .actions .favorite {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #9a50cc4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.contend2 .actions .favorite:hover {
+  background-color: #9a50ccb4;
+}
+
+.contend2:hover .actions .favorite {
+  right: 10px;
+}
+
+.contend2 > * {
+  margin: 10px 0 10px;
+}
+
+.contend2 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.contend2 .flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.contend2 .flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.contend2 .flip-box-front ins p {
+  font-size: 15px;
+}
+
+.contend2 .flip-container {
+  perspective: 1000px;
+}
+
+.contend2 .flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.contend2 .flip-box-front,
+.contend2 .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.contend2 .flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.contend2 .flip-box-back {
+  transform: rotateX(-180deg);
+}
+
+
+.contend2 .card:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend2 .card5:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend2 .flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.contend2 .flip-box-back .prix p {
+  padding: 20px;
+}
+
+.contend2 .flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  margin-top: 530px;
+  height: 44vh;
+  align-items: center;
+}
+
+.footer .footer-img li{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.footer .icons-app {
+ margin-left: 500px;
+ margin-top: 40px;
+}
+
+.footer .icons-app a {
+  padding-left: 50px;
+  color: white;
+  font-size: 28px;
+}
+
+.footer img {
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer hr {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer .li-twoo li{
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.footer .li-twoo a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 65px;
+}
+
+.footer .footer-suite {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer .footer-suite p  {
+  color: white;
+  font-family: 'Poppins';
+  margin-left: 30px;
+}
+
+.footer .footer-suite img {
+  margin-top: 10px;
+  margin-left: 250px;
+  height: 45px;
+}
+
+.footer .pays {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height:38px ;
+  margin-left: 200px;
+}
+
+.footer .pays select {
+  width: 450px;
+  font-size: 16px;
+  background-color: #f9f9f9; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 4px; /* Coins arrondis */
+ outline: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#333" d="M2 0L0 2h4z"/></svg>'); /* Icône de la flèche */  
 }
