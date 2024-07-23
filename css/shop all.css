@@ -113,7 +113,7 @@ header .navlist .icon a {
 
 .container_card {
   font-family: 'Poppins';
-  margin-left: 110px;
+  margin-left: 150px;
   margin-top: 50px;
   height: 100vh;
 }
@@ -133,8 +133,8 @@ header .navlist .icon a {
 .img-container {
   position: relative;
   overflow: hidden;
-  height: 390px;
-  width: 320px;
+  height: 370px;
+  width: 300px;
 }
 
 .container img {
@@ -143,7 +143,7 @@ header .navlist .icon a {
   object-fit: cover;
 }
 
-.container .img-container::before {
+.card .img-container::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -155,7 +155,7 @@ header .navlist .icon a {
   transition: all 0.7s ease-out;
 }
 
-.container:hover .img-container::before {
+.card :hover .img-container::before {
   opacity: 1;
   scale: 1.1;
 }
@@ -240,35 +240,8 @@ header .navlist .icon a {
   transform: rotateX(-180deg);
 }
 
-.flip-box-back button {
-  position: relative;
-  font-size: 20px;
-  font-weight: 500;
-  color: #9b50cc;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: transparent;
-}
 
-.flip-box-back button::before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0%;
-  height: 1px;
-  visibility: hidden;
-  background-color: #9b50cc;
-  transition: all 0.3s ease;
-}
-
-.flip-box-back:hover button::before {
-  visibility: visible;
-  width: 100%;
-}
-
-.container:hover .flip-box {
+.card:hover .flip-box {
   transform: rotateX(180deg);
 }
 
@@ -285,5 +258,68 @@ header .navlist .icon a {
 .flip-box-back .prix .priz {
   color: grey;
   font-size: 13px;
+}
+
+.card2 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card2 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card3:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card3 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card3 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card3:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card4 .img-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card4 :hover .img-container::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card4:hover .flip-box {
+  transform: rotateX(180deg);
 }
 
