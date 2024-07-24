@@ -185,7 +185,7 @@ header .contend .second {
   inset: 0;
   height: 100%;
   width: 100%;
-  background: url('bar.png') no-repeat center / contain;
+  background: url('Square_P_Apparel11.png') no-repeat center / contain;
   opacity: 0;
   scale: 0.9;
   transition: all 0.7s ease-out;
@@ -193,7 +193,7 @@ header .contend .second {
 
 .card :hover .img-container::before {
   opacity: 1;
-  scale: 1.1;
+  scale: 1;
 }
 
 .actions .favorite {
@@ -526,6 +526,27 @@ header .contend .second {
   transform: rotateX(180deg);
 }
 
+.card12 .img-container2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card12 :hover .img-container2::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card12:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
 .contend2 .actions .favorite {
   position: absolute;
   top: 20px;
@@ -716,3 +737,478 @@ header .contend .second {
  outline: none;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#333" d="M2 0L0 2h4z"/></svg>'); /* Icône de la flèche */  
 }
+
+.contend3 {
+  margin-top: 50px;
+  display: flex;
+  gap: 130px;
+}
+
+.contend3 .img-container3 {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.contend3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.contend3 .actions .favorite {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #9a50cc4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.contend3 .actions .favorite:hover {
+  background-color: #9a50ccb4;
+}
+
+.contend3:hover .actions .favorite {
+  right: 10px;
+}
+
+.contend3 > * {
+  margin: 10px 0 10px;
+}
+
+.contend3 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.contend3 .flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.contend3 .flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.contend3 .flip-box-front ins p {
+  font-size: 15px;
+}
+
+.contend3 .flip-container {
+  perspective: 1000px;
+}
+
+.contend3 .flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.contend3 .flip-box-front,
+.contend3 .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.contend3 .flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.contend3 .flip-box-back {
+  transform: rotateX(-180deg);
+}
+
+
+.contend3 .card:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend3 .card5:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.contend3 .flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.contend3 .flip-box-back .prix p {
+  padding: 20px;
+}
+
+.contend3 .flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  margin-top: 530px;
+  height: 44vh;
+  align-items: center;
+}
+
+.footer .footer-img li{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.footer .icons-app {
+ margin-left: 500px;
+ margin-top: 40px;
+}
+
+.footer .icons-app a {
+  padding-left: 50px;
+  color: white;
+  font-size: 28px;
+}
+
+.footer img {
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer hr {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer .li-twoo li{
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.footer .li-twoo a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 65px;
+}
+
+.footer .footer-suite {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.footer .footer-suite p  {
+  color: white;
+  font-family: 'Poppins';
+  margin-left: 30px;
+}
+
+.footer .footer-suite img {
+  margin-top: 10px;
+  margin-left: 250px;
+  height: 45px;
+}
+
+.footer .pays {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height:38px ;
+  margin-left: 200px;
+}
+
+.footer .pays select {
+  width: 450px;
+  font-size: 16px;
+  background-color: #f9f9f9; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 4px; /* Coins arrondis */
+ outline: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#333" d="M2 0L0 2h4z"/></svg>'); /* Icône de la flèche */  
+}
+
+.card13 .img-container3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card13 :hover .img-container3::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card13:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card14 .img-container3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card14 :hover .img-container3::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card14:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card15 .img-container3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card15 :hover .img-container3::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card15:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card16 .img-container3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card16 :hover .img-container3::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card16:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+
+.contend4 > * {
+  margin: 10px 0 10px;
+}
+
+
+.contend4 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.contend4 .flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.contend4 .flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.contend4 .flip-box-front ins p {
+  font-size: 15px;
+}
+
+.contend4 .flip-container {
+  perspective: 1000px;
+}
+
+.contend4 .flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.contend4 .flip-box-front,
+.contend4 .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.contend4 .flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.contend4 .flip-box-back {
+  transform: rotateX(-180deg);
+}
+.contend4 .flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.contend4 .flip-box-back .prix p {
+  padding: 20px;
+}
+
+.contend4 .flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+
+.contend4 {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  gap: 130px;
+  margin-top: 40px;
+}
+
+.contend4 .img-container4 {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.contend4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card17 .img-container4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card17 :hover .img-container4::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card17:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+
+.card18 .img-container4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card18 :hover .img-container4::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card18:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card19 .img-container4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card19 :hover .img-container4::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card19:hover .flip-box {
+  transform: rotateX(180deg);
+}
+
+.card20 .img-container4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card20 :hover .img-container4::before {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.card20:hover .flip-box {
+  transform: rotateX(180deg)19 }
