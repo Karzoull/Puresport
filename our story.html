@@ -39,3 +39,96 @@
             Our wellbeing is a journey, we believe in small, sustainable steps which form life-long habits. We want to be well now, and forever, and we want you to join us.</p>
     </div>
   </header>
+  <section class="étoile">
+    <div class="container">
+        <div class="post">
+          <div class="text">Thanks for rating us!</div>
+          <div class="edit">EDIT</div>
+        </div>
+        <div class="star-widget">
+          <input type="radio" name="rate" id="rate-5">
+          <label for="rate-5" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-4">
+          <label for="rate-4" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-3">
+          <label for="rate-3" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-2">
+          <label for="rate-2" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-1">
+          <label for="rate-1" class="fas fa-star"></label>
+          <form action="#">
+            <header></header>
+            <div class="textarea">
+              <textarea cols="30" placeholder="Describe your experience.."></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Post</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+          widget.style.display = "none";
+          post.style.display = "block";
+          editBtn.onclick = ()=>{
+            widget.style.display = "block";
+            post.style.display = "none";
+          }
+          return false;
+        }
+      </script>
+ </section>
+ <section class="footer">
+  <div class="footer-img">
+          <li>
+              <img src="images/title.PNG" alt="">
+              <div class="icons-app">
+                <a href="https://twitter.com/puresportco"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.tiktok.com/@puresport.co"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/puresport/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCgMb_715-KFq48rpVMEzqBg"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/puresportclubs"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </li>
+            <div class="li-twoo">
+              <li class="li-two">
+                  <a href="#">Learn</a>
+                  <a href="#">Lab Reports</a>
+                  <a href="#">Ambassadors</a>
+                  <a href="#">Subscription</a>
+                  <a href="#">Contact</a>
+                  <a href="#">Term & Condtition</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Shipping & Returns</a>
+                  <a href="#">Login</a>
+                </li>
+            </div>
+            <hr>
+            <div class="footer-suite">
+              <div class="suite">
+                  <p>© 2024 Puresport. All of our products are sold as food supplements and not <br> 
+                    intended to diagnose, cure, prevent or treat disease. Always consult your <br> 
+                    health professional before taking any food supplements.</p>
+                </div>
+                <div class="img">
+                  <img src="images/Capture d’écran 2024-06-23 154507.png" alt="">
+                </div>
+            </div>
+            <div class="pays">
+              <select id="country-select">
+                  <option value="fr">France (EUR €)</option>
+                  <option value="us">États-Unis (USD $)</option>
+                  <option value="uk">Royaume-Uni (GBP £)</option>
+                  <option value="de">Allemagne (EUR €)</option>
+                  <option value="jp">Japon (JPY ¥)</option>
+                  <!-- Ajoutez d'autres pays ici -->
+              </select>
+            </div>
+  </div>          
+</section>  
+</body>
