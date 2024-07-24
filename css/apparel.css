@@ -1212,3 +1212,370 @@ header .contend .second {
 
 .card20:hover .flip-box {
   transform: rotateX(180deg)19 }
+
+
+
+  .contend5 > * {
+    margin: 10px 0 10px;
+  }
+  
+  
+  .contend5 p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -20px;
+    margin-top: 25px;
+  }
+  
+  .contend5 .flip-container .flip-box-front {
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .contend5 .flip-box-front ins {
+    text-decoration: none;
+    margin-top: -40px;
+  }
+  
+  .contend5 .flip-box-front ins p {
+    font-size: 15px;
+  }
+  
+  .contend5 .flip-container {
+    perspective: 1000px;
+  }
+  
+  .contend5 .flip-box {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    padding-bottom: 30px;
+  }
+  
+  .contend5 .flip-box-front,
+  .contend5 .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+  }
+  
+  
+  .contend5 .flip-box-front {
+    transform: rotateX(0deg);
+  }
+  
+  .contend5 .flip-box-back {
+    transform: rotateX(-180deg);
+  }
+  .contend5 .flip-box-back .prix {
+    display: flex;
+    margin-top: -25px;
+    margin-left: -20px;
+  }
+  
+  .contend5 .flip-box-back .prix p {
+    padding: 20px;
+  }
+  
+  .contend5 .flip-box-back .prix .priz {
+    color: grey;
+    font-size: 13px;
+  }
+  
+  
+  .contend5 {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    gap: 130px;
+    margin-top: 50px;
+  }
+  
+  .contend5 .img-container5 {
+    position: relative;
+    overflow: hidden;
+    height: 370px;
+    width: 300px;
+  }
+  
+.contend5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   }
+
+  
+.card21 .img-container5::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background: url('bar.png') no-repeat center / contain;
+    opacity: 0;
+    scale: 0.9;
+    transition: all 0.7s ease-out;
+  }
+  
+.card21 :hover .img-container5::before {
+    opacity: 1;
+    scale: 1.1;
+  }
+  
+.card21:hover .flip-box {
+    transform: rotateX(180deg)19 }
+
+.card22 .img-container5::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      background: url('bar.png') no-repeat center / contain;
+      opacity: 0;
+      scale: 0.9;
+      transition: all 0.7s ease-out;
+    }
+    
+.card22 :hover .img-container5::before {
+      opacity: 1;
+      scale: 1.1;
+    }
+    
+.card22:hover .flip-box {
+      transform: rotateX(180deg)19 }
+
+.card23 .img-container5::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        background: url('bar.png') no-repeat center / contain;
+        opacity: 0;
+        scale: 0.9;
+        transition: all 0.7s ease-out;
+      }
+      
+.card23 :hover .img-container5::before {
+opacity: 1;
+  scale: 1.1;
+      }
+      
+.card23:hover .flip-box {
+ transform: rotateX(180deg)19 }
+
+ .card24 .img-container5::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: url('bar.png') no-repeat center / contain;
+  opacity: 0;
+  scale: 0.9;
+  transition: all 0.7s ease-out;
+}
+
+.card24 :hover .img-container5::before {
+opacity: 1;
+scale: 1.1;
+}
+
+.card24:hover .flip-box {
+transform: rotateX(180deg)19 }
+
+
+.contend6 > * {
+  margin: 10px 0 10px;
+}
+
+
+.contend6 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.contend6 .flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.contend6 .flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.contend6 .flip-box-front ins p {
+  font-size: 15px;
+}
+
+.contend6 .flip-container {
+  perspective: 1000px;
+}
+
+.contend6 .flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.contend6 .flip-box-front,
+.contend6 .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.contend6 .flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.contend6 .flip-box-back {
+  transform: rotateX(-180deg);
+}
+.contend6 .flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.contend6 .flip-box-back .prix p {
+  padding: 20px;
+}
+
+.contend6 .flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+
+.contend6 {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  gap: 130px;
+  margin-top: 50px;
+}
+
+.contend6 .img-container6 {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.contend6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+
+ .contend7 > * {
+  margin: 10px 0 10px;
+}
+
+
+.contend7 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.contend7 .flip-container .flip-box-front {
+  font-size: 20px;
+  color: #000;
+}
+
+.contend7 .flip-box-front ins {
+  text-decoration: none;
+  margin-top: -40px;
+}
+
+.contend7 .flip-box-front ins p {
+  font-size: 15px;
+}
+
+.contend7 .flip-container {
+  perspective: 1000px;
+}
+
+.contend7 .flip-box {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  padding-bottom: 30px;
+}
+
+.contend7 .flip-box-front,
+.contend7 .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+}
+
+
+.contend7 .flip-box-front {
+  transform: rotateX(0deg);
+}
+
+.contend7 .flip-box-back {
+  transform: rotateX(-180deg);
+}
+.contend7 .flip-box-back .prix {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -20px;
+}
+
+.contend7 .flip-box-back .prix p {
+  padding: 20px;
+}
+
+.contend7 .flip-box-back .prix .priz {
+  color: grey;
+  font-size: 13px;
+}
+
+
+.contend7 {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  gap: 130px;
+  margin-top: 50px;
+}
+
+.contend7 .img-container7 {
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  width: 300px;
+}
+
+.contend7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
