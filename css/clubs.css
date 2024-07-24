@@ -243,6 +243,8 @@ form button{
   margin-top: -30px;
 }
 
+
+
 .info {
   background-color: black;
   display: flex;
@@ -432,11 +434,7 @@ form .textarea textarea{
 .textarea textarea:focus{
   border-color: #444;
 }
-form .btn{
-  height: 45px;
-  width: 100%;
-  margin: 15px 0;
-}
+
 form .btn button{
   height: 100%;
   width: 100%;
