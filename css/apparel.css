@@ -188,7 +188,7 @@ header .contend .second {
   background: url('Square_P_Apparel11.png') no-repeat center / contain;
   opacity: 0;
   scale: 0.9;
-  transition: all 0.7s ease-out;
+  transition: all 0.1S ease-out;
 }
 
 .card :hover .img-container::before {
@@ -306,15 +306,15 @@ header .contend .second {
   inset: 0;
   height: 100%;
   width: 100%;
-  background: url('bar.png') no-repeat center / contain;
+  background: url('PS_June_Apparel7.png') no-repeat center / contain;
   opacity: 0;
   scale: 0.9;
-  transition: all 0.7s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .card2 :hover .img-container::before {
   opacity: 1;
-  scale: 1.1;
+  
 }
 
 .card3:hover .flip-box {
