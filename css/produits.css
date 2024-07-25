@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+header .fond img {
+  width: 100%;
+  height: 780px;
+  object-fit: cover;
+  margin-top: 90px;
+}
+
+header .navlist {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000; 
+  margin-top: 10px;
+}
+
+header .navlist ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navlist .logo {
+  flex-grow: 1;
+  padding-left: 250px;
+}
+
+header .navlist .logo h1 {
+  font-size: 44px;
+  color: black;
+  font-weight: 500;
+}
+
+header .navlist .logo h1 span {
+  font-size: 15px;
+}
+
+header .navlist li {
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navlist li a {
+  font-size: 16px;
+  color: black;
+  transition: color 0.5s ease;
+  font-weight: 500;
+}
+
+header .navlist li a:hover {
+  border-bottom: 2px solid black;
+}
+
+header .navlist .icon {
+  flex-grow: 1;
+  display: flex;
+  
+  margin-left: 200px;
+}
+
+header .navlist .icon a:hover {
+  transform: scale(1.2);
+}
+
+header .navlist .icon a {
+  padding-left: 40px;
+  color: black;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Utilisation de l'unité fr */
+  height: 100vh;
+  margin-top: 5px; /* Ajouter un margin-top pour éviter que la section cache le header */
+}
+
+.left {
+  background-color: white;
+}
+
+.right {
+  background-color: white;
+}
+
+.right .contend {
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.right .contend h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.right .contend .priz {
+    margin-top: 8px;
+}
+
+.right .contend .priz span {
+    color: rgb(102, 101, 101);
+    padding-left: 20px;
+}
+
+.right .contend .avis {
+    margin-top: 30px;
+    display: flex;
+}
+
+.right .contend .avis p {
+    padding-left: 30px;
+    color: rgb(105, 105, 105);
+}
+
+.right .contend .avis a {
+    margin-top: 4px;
+}
+
+.flavour-selector {
+    margin-left: -600px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.flavours {
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.flavour {
+    position: relative;
+    display: inline-block;
+}
+
+.flavour input[type="radio"] {
+    display: none;
+}
+
+.flavour-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+.flavour input[type="radio"]:checked + .flavour-circle {
+    border-color: black;
+}
+
+.flavour-selector h2 {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 600;
+}

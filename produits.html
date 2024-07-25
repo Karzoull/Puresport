@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/produits.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="navlist">
+            <ul>
+                <div class="logo">
+                  <a href="index.html"><h1>Puresport<span>@</span></h1></a>  
+                </div>
+                <li><a href="shop all.html">SUPPLEMENT</a></li>
+                <li><a href="apparel.html">APPAREL</a></li>
+                <li><a href="our story.html">OUR STORY</a></li>
+                <li><a href="clubs.html">CLUBS</a></li>
+                <li><a href="event.html">EVENTS</a></li>
+                <div class="icon">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <section class="container">
+        <div class="left">
+            <img src="images/Puresport_Ultra_Electrolytes16-2.png" alt="" height="950" id="leftImage">
+        </div>
+        <div class="right">
+          <div class="contend">
+            <h1>Ultra Electrolytes (30 pack) - Citrus Salt</h1>
+            <div class="priz">
+                <strong>€39,95</strong><span>1 PACK 30 SACHETS</span>
+            </div>
+            <div class="avis">
+                <a href="#"><img src="images/Capture d’écran 2024-07-26 000537.png" alt=""></a>
+                <p>35 Reviews</p>
+            </div>
+          </div>
+          <div class="flavour-selector">
+            <h2>Choose Flavour</h2>
+            <div class="flavours">
+                <label class="flavour">
+                    <input type="radio" name="flavour" value="green" checked>
+                    <span class="flavour-circle" style="background-color: #a3d977;" id="changeImageBtn2"></span>
+                </label>
+                <label class="flavour">
+                    <input type="radio" name="flavour" value="red">
+                    <span class="flavour-circle" style="background-color: #d94a61;" id="changeImageBtn"></span>
+                </label>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+        document.getElementById('changeImageBtn').addEventListener('click', function() {
+    document.getElementById('leftImage').src ='images/rose_Ultra_Electrolytes6-2.png';  
+});
+document.getElementById('changeImageBtn2').addEventListener('click', function() {
+    document.getElementById('leftImage').src ='images/Puresport_Ultra_Electrolytes16-2.png';  
+});
+
+    </script>
+</body>

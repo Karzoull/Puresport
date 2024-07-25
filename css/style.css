@@ -180,7 +180,7 @@ header .navlist .icon a {
 }
 
 .produits .container .btn-container a{
-  transition: color 0.8s ease; 
+  transition: color 0.1s ease; 
 }
 
 .produits .container .btn-container a:hover {
